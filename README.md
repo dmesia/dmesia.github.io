@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Click [here](INSERT_HYPERLINK_HERE) to get started.
+Click [here](https://dmesia.github.io/) to get started.
 
 ## Description
 
