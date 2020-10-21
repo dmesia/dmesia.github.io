@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+}
+
+h1 span {
+  background-color: #424242;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  border: 2px;
+  border-style: solid;
+  border-color: gold;
+  text-shadow: -1px 0 gold, 0 1px gold, 1px 0 gold, 0 -1px gold;
+}
+
+.guide span {
+  background-color: #424242;
+  padding: 5px 10px 5px 10px;
+  border: solid;
+  border-style: 2px;
+  border-radius: 5px;
+  border-color: gold;
+  text-shadow: -1px 0 gold, 0 1px gold, 1px 0 gold, 0 -1px gold;
+  font-weight: bold;
+  font-size: large;
+}
+
+.champContainer {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: space-evenly;
+}
+
+.champImage {
+  grid-row: 1 / 1;
+  width: 250px;
+  margin: 50px 1px 0px 1px;
+}
+
+.champName {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  grid-row: 2 / 2;
+  color: fuchsia;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  font-weight: 900;
+}
+
+.champTitle {
+  margin-top: 0px;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  color: fuchsia;
+  font-weight: 900;
+}
+
+
+@media screen and (max-width: 800px) {
+  .champContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .champImage {
+    width: 100px;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 span {
+    font-size: medium;
+  }
+
+  .instructions span {
+    font-size: x-small;
+  }
+
+  .champContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .champImage {
+    width: 100px;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+body {
+  background-image: url(/background/background.jpg);
+}
